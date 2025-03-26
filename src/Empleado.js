@@ -176,7 +176,7 @@ export class Empleado extends React.Component {
                             <th>ID</th>
                             <th>Name</th>
                             <th>Email</th>
-                            <th>Atc</th>
+                            <th>ATC</th>
                             <th>Level</th>
                             <th>Role</th>
                             <th>Status</th>
@@ -222,7 +222,7 @@ export class Empleado extends React.Component {
                         />
                     </FormGroup>
                     <FormGroup>
-                        <label>Atc: </label>
+                        <label>ATC: </label>
                         <input className="form-control" name="atc" type="text" onChange={this.handleChange}
                         />
                     </FormGroup>
@@ -269,7 +269,7 @@ export class Empleado extends React.Component {
                         onChange={this.handleChange} value={this.state.form.email} />
                     </FormGroup>
                     <FormGroup>
-                        <label>Atc:</label>
+                        <label>ATC:</label>
                         <input className="form-control" name="atc" type="text"
                         onChange={this.handleChange} value={this.state.form.atc} />
                     </FormGroup>
